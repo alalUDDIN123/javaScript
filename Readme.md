@@ -6,9 +6,9 @@
 
 1. [Basic](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Basic)
 
-2. [Intermediate](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Basic)
+2. [Intermediate](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Intermediate)
 
-3. [Advance](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Basic)
+3. [Advance](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Advance)
 
 
   ## If You have Any Query Fell Free To Reach :- 
