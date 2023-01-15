@@ -29,3 +29,32 @@
 //     NOTE: You can name variables whatever you want but try to give them good/descriptive
 //     names that tell the reader what the variable is used for
 
+// The main difference between the "let" and "var" keywords in 
+// JavaScript is their scope. Variables declared with the "var" keyword are function
+// scoped, which means they are accessible within the entire function in which they are declared, 
+// as well as any nested functions. On the other hand, variables declared with the "let" keyword are block scoped, 
+// which means they are only accessible within the block in which they are declared.
+
+for(let i=0;i<9;i++){
+
+}
+
+console.log(i,"iii"); // here i will print as undefined because i is defined with let keyword
+// which is block scope , so we can not access block scope from out the block
+
+
+
+// In the first example, the variable "i" is declared using the "let" 
+// keyword and is only accessible within the for loop block.
+//  Once the for loop has finished executing, the variable "i" 
+//  is no longer in scope and cannot be accessed.
+
+for(var i=0;i<=9;i++){
+
+}
+
+console.log(i,"iii"); // here i will print 10 because of i is declared with var variable
+
+// In the second example, the variable "i" is declared using the "var" keyword, 
+// which makes it accessible throughout the entire function.
+//  The for loop has finished executing and value of "i" is 10, that's why it is printing 10.
