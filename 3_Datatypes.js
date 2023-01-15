@@ -44,6 +44,9 @@ console.log(blo) /// Output := true,  typeof= boolean
 var arr = [1, 2, "bablu", 4, 5]
 console.log(arr)// Output :=  [1, 2, "bablu", 4, 5], typeof= object This because in javascript all derived data type is always a type object
 
+// derived data type ---> Derived data types are those that are defined in terms of other data types, called base types. 
+// I mean then can have multiple elements or mixed content.
+
 // object
 
 var data = {
