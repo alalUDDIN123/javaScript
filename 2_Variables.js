@@ -25,21 +25,21 @@
 
 //     In the above example the variable called a first contained the value 200 but a = 100
 //     means that a now contains the value 100.
-    
+
 //     NOTE: You can name variables whatever you want but try to give them good/descriptive
 //     names that tell the reader what the variable is used for
 
-// The main difference between the "let" and "var" keywords in 
-// JavaScript is their scope. Variables declared with the "var" keyword are function
-// scoped, which means they are accessible within the entire function in which they are declared, 
-// as well as any nested functions. On the other hand, variables declared with the "let" keyword are block scoped, 
+// Let VS Var 👍 👍
+// 1. Scope . Variables declared with the "var" keyword are function scope
+//  which means they are accessible within the entire function in which they are declared, as well as any nested functions.
+//  On the other hand, variables declared with the "let" keyword are block scoped, 
 // which means they are only accessible within the block in which they are declared.
 
-for(let i=0;i<9;i++){
+for (let i = 0; i < 9; i++) {
 
 }
 
-console.log(i,"iii"); // here i will print as undefined because i is defined with let keyword
+console.log(i, "iii"); // here i will print as undefined because i is defined with let keyword
 // which is block scope , so we can not access block scope from out the block
 
 
@@ -49,12 +49,46 @@ console.log(i,"iii"); // here i will print as undefined because i is defined wit
 //  Once the for loop has finished executing, the variable "i" 
 //  is no longer in scope and cannot be accessed.
 
-for(var i=0;i<=9;i++){
+for (var i = 0; i <= 9; i++) {
 
 }
 
-console.log(i,"iii"); // here i will print 10 because of i is declared with var variable
+console.log(i, "iii"); // here i will print 10 because of i is declared with var variable
 
-// In the second example, the variable "i" is declared using the "var" keyword, 
+// In the second example, the variable "i" is declared using the "var" keyword,
 // which makes it accessible throughout the entire function.
 //  The for loop has finished executing and value of "i" is 10, that's why it is printing 10.
+
+// 2. Hoisting: Variables declared with var are hoisted to the top of their scope,
+// meaning that they are accessible before they are declared.
+// Variables declared with let, are not hoisted and cannot be accessed before they are declared.
+
+/*
+
+console.log(x); // undefined
+  var x=5;
+console.log(x); // 5
+
+
+console.log(x); // ReferenceError: x is not defined
+  let x=5;
+console.log(x); // 5
+
+*/
+
+// 3. Re-assignment: Both let and var allow you to reassign the value of a variable.
+// However, when you declare a variable with let,
+// you can only declare it once within the same block,
+// while var allows you to declare the same variable multiple times within the same scope
+
+/*
+
+var x = 1;
+var x = 2;
+console.log(x); // 2
+
+let y = 1;
+let y = 2; // SyntaxError: Identifier 'y' has already been declared
+console.log(y);
+
+*/
