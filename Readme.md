@@ -5,3 +5,4 @@
 3. [Datatypes](./3_Datatypes.js)
 4. [Hoisting](./4_Hoisting.js)
 5. [Operators](./5_Operators.js)
+6. [Conditional-Statement](./6_conditional_statement.js)
