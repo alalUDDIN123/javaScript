@@ -158,3 +158,41 @@ console.log(a <= b);    // Output: true
 console.log(d >= c);    // Output: true
 
 */
+
+
+// logical operators (&&,||,!) 👍👍👍👍👍👍👍 :: These are used to perform logical operations on two or more Boolean
+ // expressions and return a Boolean value based on the result of the operation. 
+ // These logical operators are often used in combination with conditional statements.
+
+/*
+ 1. AND && : Logical AND (&&) returns true if and only if both operands are true.
+ 2. OR || : Logical OR (||) returns true if at least one of the operands is true
+ 3. NOT ! :  It is a unary operator that inverts the value of the operand. 
+ If the operand is true, then returns false. If the operand is false,then returns true
+
+ let x = 5;
+let y = 10;
+
+// Logical AND (&&)
+if (x > 0 && y < 15) {
+  console.log('Both conditions are true');
+}
+
+// Logical OR (||)
+let age = 15;
+let height = 120;
+
+if (age >= 18 || height >= 150) {
+  console.log('You can ride the roller coaster');
+}
+
+// Logical NOT (!)
+let rainyDay = true;
+
+if (!rainyDay) {
+  console.log('Let\'s go for a walk');
+} else {
+  console.log('Let\'s stay inside');
+}
+
+*/
