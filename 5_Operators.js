@@ -1,4 +1,17 @@
-// Mathematical Operators
+// Operators ::: Operators in JavaScript are used to perform different kinds of operations on values or variables. 
+// They are an essential part of the language and allow developers to manipulate and modify data in various ways.
+
+// In the below 5 operators explain with examples
+/*
+ 1. Arithmetic or Mathematical operations
+ 2. Exponentiation (**) operator
+ 3. Assignment operators
+ 4. Comparison operators
+ 5. Logical operators
+
+*/
+
+// 1. Mathematical Operators
 
 /*
   1. Addition (+): The addition operator is used to add two numbers or concatenate two strings
@@ -96,7 +109,7 @@ console.log(a); // Output: 4
 console.log(b); // Output: 5
 */
 
-// Exponentiation (**) operator 👍👍👍👍👍👍👍 :- Exponentiation is a mathematical operation that raises a number to a certain power.
+// 2. Exponentiation (**) operator 👍👍👍👍👍👍👍 :- Exponentiation is a mathematical operation that raises a number to a certain power.
 // In JavaScript, the exponentiation operator is represented by two asterisks (**)
 
 // syntax
@@ -127,7 +140,7 @@ a ** b * (c + a)
 = 96
 
 */
-// assignment operators (+=, -=, *=, /=, %=) 👍👍👍👍👍👍👍 ::-, Assignment operators in JavaScript are used
+// 3. assignment operators (+=, -=, *=, /=, %=) 👍👍👍👍👍👍👍 ::-, Assignment operators in JavaScript are used
 //to assign values to variables with an arithmetic operation.
 //They combine the assignment operator (=) with another arithmetic operator (+=, -=, *=, /=, %=)
 //to perform the arithmetic operation and assign the result to the variable.
@@ -140,7 +153,7 @@ a ** b * (c + a)
 5. Modulus assignment operator (%=)
 
 */
-// comparison operators (==, !=, <, >, <=, >=) 👍👍👍👍👍👍👍 ::comparison operators in JavaScript are used 
+//4.  comparison operators (==, !=, <, >, <=, >=) 👍👍👍👍👍👍👍 ::comparison operators in JavaScript are used 
 //to compare two values and return a Boolean value (true or false) based on whether the comparison is true or false
 
 /*
