@@ -19,8 +19,8 @@
   3. Multiplication (*): The multiplication operator is used to multiply two numbers.
   4. Division (/): The division operator is used to divide two numbers.
   5. Modulus (%): The modulus operator is used to get the remainder of a division operation.
-  6. Increment (++): The increment operator is used to increase the value of a variable by 1.
-  7. Decrement (--): The decrement operator is used to decrease the value of a variable by 1.
+  6. PostIncrement (++): The increment operator is used to increase the value of a variable by 1.
+  7. PostDecrement (--): The decrement operator is used to decrease the value of a variable by 1.
 
 */
 
@@ -80,7 +80,7 @@ console.log(result); // Output: 2
 
 */
 
-// 6. Increment (++) 👍👍👍👍👍👍👍
+// 6. PostIncrement (++) 👍👍👍👍👍👍👍
 
 /*
 let num1 = 5;
@@ -95,7 +95,7 @@ console.log(b); // Output: 5
 
 */
 
-// 7. Decrement (--) 👍👍👍👍👍👍👍
+// 7. PostDecrement (--) 👍👍👍👍👍👍👍
 
 /*
 let num1 = 5;
