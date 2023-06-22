@@ -6,7 +6,7 @@
 
    - `Use case:` JavaScript is used to enhance user experience on websites by adding interactivity and dynamic content.
 
-   - `Benefits:` It allows for client-side scripting, reducing server load and improving responsiveness. It has a large ecosystem of libraries and frameworks.
+   - `Benefits:` It helps for client-side scripting, reducing server load and improving responsiveness. It has a large ecosystem of libraries and frameworks.
 
    - `Extra information:` JavaScript is different from Java in terms of syntax, purpose, and execution environment. Java is a statically typed language used for a wide range of applications.
 
@@ -21,7 +21,7 @@ greet();
 
 2. **`What are the data types in JavaScript?`**
 
-   - `Definition:` It describe the different kinds of data that can be stored in variables.
+   - `Definition:` Data types are basically diffrent kinds of data that can be stored in variables.
 
    - `Use case:` Data types are used to represent different kinds of values in JavaScript programs.
 
@@ -49,7 +49,7 @@ var arr = [1, 2, "bablu", 4, 5]
 
    - `Definition:` Variables are used to store the data.
 
-   - Extra information: The three ways to declare variables in JavaScript are: `var (function or global scope)`, `let (block scope with reassignment)`, and `const (block scope with immutability)`.
+   - Extra information: There are three ways to declare variables in JavaScript : `var,let,const`.
 
 Example code:
 ```javascript
@@ -67,7 +67,7 @@ const PI = 3.14; // const declaration
 
    - `Benefits:` Understanding the differences helps developers write more reliable and maintainable code.
 
-   - `Extra information:` var is function or globally scoped, let is block-scoped with reassignment, and const is block-scoped with immutability. var gets hoisted, while let and const do not.
+   - `Extra information:` `var is function or globally scoped`, `let is block-scoped with reassignment`, and `const is block-scoped with immutability`. var gets hoisted, while let and const do not.
 
 Example code:
 ```javascript
