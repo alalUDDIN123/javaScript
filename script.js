@@ -9,6 +9,8 @@
 // user_name = "Ravi Ranjan Ram"
 // console.log("user_name:", user_name); // Ravi Ranjan Ram
 
-const user_name = "Ravi Ranjan"
-user_name = "Ravi Ranjan Ram"
-console.log("user_name:", user_name); // TypeError
+// const user_name = "Ravi Ranjan"
+// user_name = "Ravi Ranjan Ram"
+// console.log("user_name:", user_name); // TypeError
+
+console.log(5 & 3,"and bitwise operator"); // bitwise operator (AND)
