@@ -34,12 +34,45 @@
 
 
 // Constructor Function
-function Person(n, a) {
-    this.Person_name = n;
-    this.Person_age = a;
+// function Person(n, a) {
+//     this.Person_name = n;
+//     this.Person_age = a;
+// }
+
+// var person1 = new Person("Ravi", 30);
+// console.log(person1);
+
+
+// Nullish
+
+// const data = undefined
+
+// const getData = (data) => {
+//     return data;
+// }
+
+// let responseData = getData(data ?? "Default Value")
+// console.log(responseData);
+
+
+// optional chaning
+
+const userData = {
+    userAddress: null,
+    phone: "76565574"
+};
+
+let getUserData = userData?.userAddress;
+
+try {
+    if (!getUserData) {
+        throw new Error("userAddress is undefined or null");
+    }
+
+    console.log(getUserData);
+} catch (error) {
+    console.error("Error:", error.message);
 }
 
-var person1 = new Person("Ravi", 30);
-console.log(person1);
 
 // node script.js
