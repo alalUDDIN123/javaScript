@@ -21,16 +21,17 @@ greet();
 
 2. **`What are the data types in JavaScript?`**
 
-   - `Definition:` Data types are basically diffrent kinds of data that can be stored in variables.
-
-   - `Use case:` Data types are used to represent different kinds of values in JavaScript programs.
+   - `Definition:` Data types in JavaScript are the classifications of data that determine the kind of values a variable can hold.
 
    - `Benefits:` Each data type has its own set of operations and behaviors which allow developers to manipulate and process data effectively.
 
    - `Extra information:` There are two main types of data in javaScript:
 
-      1. **`Primitive data types`**: number, string, boolean, null, undefined, symbol
-      1. **`Reference data types`**: object, array, function, date
+      1. **`Primitive data types`**: These data types are simple, immutable values directly stored in memory. They can only store a single value at a time and cannot directly store multiple types of data.
+           -  number, string, boolean, null, undefined, symbol
+
+      1. **`Reference data types`**: These data types are complex objects stored by reference, allowing mutability. They can store multiple values and different types of data within a single object.
+           - object, array, function, date
 
 Example code:
 ```javascript

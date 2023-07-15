@@ -57,22 +57,51 @@
 
 // optional chaning
 
-const userData = {
-    userAddress: null,
-    phone: "76565574"
+// const userData = {
+//     userAddress: null,
+//     phone: "76565574"
+// };
+
+// let getUserData = userData?.userAddress;
+
+// try {
+//     if (!getUserData) {
+//         throw new Error("userAddress is undefined or null");
+//     }
+
+//     console.log(getUserData);
+// } catch (error) {
+//     console.error("Error:", error.message);
+// }
+
+// reference data type
+let person = {
+    name: 'Ravi Ranjan',
+    age: 22,
+    hobbies: ['reading', 'coding']
 };
 
-let getUserData = userData?.userAddress;
+// console.log("before modify person obj::", person);
 
-try {
-    if (!getUserData) {
-        throw new Error("userAddress is undefined or null");
-    }
+// person.name = "Alal Uddin"
+// console.log("after modify person obj::", person);
 
-    console.log(getUserData);
-} catch (error) {
-    console.error("Error:", error.message);
+
+/// Closures 👍
+function createCounter() {
+    let count = 0;
+
+    return function () {
+        count++;
+        console.log(count, "inside inner function");
+
+    };
+
+
 }
 
+const counter = createCounter(); // 1
+
+console.log("in gobal", counter()); // undefined
 
 // node script.js
