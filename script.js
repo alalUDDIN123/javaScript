@@ -105,3 +105,4 @@ const counter = createCounter(); // 1
 console.log("in gobal", counter()); // undefined
 
 // node script.js
+// git push origin javaScript_Questions_Answer_Preparation
