@@ -8,3 +8,4 @@
 6. [Conditional-Statement](./6_conditional_statement.js)
 7. [function](./7_function.js)
 8. [loop-in-js](./8_loop.js)
+9. [array](./9_array.js)
