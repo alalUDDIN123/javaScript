@@ -4,7 +4,7 @@
 
 ## Click Respective Branch Link To See Code
 
-1. [Basic](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Basic)
+1. [Basic](https://github.com/alalUDDIN123/JAVASCRIPT/tree/basic)
 
 2. [Intermediate](https://github.com/alalUDDIN123/JAVASCRIPT/tree/Intermediate)
 
