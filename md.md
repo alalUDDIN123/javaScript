@@ -40,6 +40,8 @@
  - Example 7.3: Fetch API Data using Async-await 
  - 😀 Advantages of using Async Await
 
+
+
 8. JavaScript Prototype
  - Example 8.1: constructor function
  - Example 8.2: Add Properties
