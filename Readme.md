@@ -9,3 +9,4 @@
 7. [function](./7_function.js)
 8. [loop-in-js](./8_loop.js)
 9. [array](./9_array.js)
+10. [object](./10_object.md)

@@ -13,6 +13,7 @@
         // newArray[1] = "second";
         // newArray[2] = "third";
  
+// Array Methods 
 
     //     1. **push() and pop():**
         
@@ -94,8 +95,6 @@
     //     console.log(Array.isArray(array2)); // Output: false
     //     ```
         
-    //     Certainly! Here are examples of how to use the `sort()`, `reverse()`, `some()`, and `every()` array methods in JavaScript:
-
     //     10. **sort():**
     //     The `sort()` method is used to sort the elements of an array in place and returns the sorted array. By default, it sorts elements as strings.
         
