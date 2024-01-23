@@ -1,0 +1,15 @@
+.main-container {
+    text-align: center;
+  }
+  .navbar {
+    width: 30%;
+    margin: auto;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  .navbar ul li {
+    padding-right: 30px;
+    font-size: 20px;
+  }
